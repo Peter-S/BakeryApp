@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Pete's Bakery</h1>
+    <p class="lead">World Class Bakery! </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Products</h2>
+        <p>
+            Take a look at our Bakery Items and Make a Purchase.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Product")">View Products &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Add New Items to List</h2>
+        <p>Add Items to the already long list of Choices. </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "AddProduct")">Add Products &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Registar</h2>
+        <p>Registrar as a new client of Pete's Bakery. </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Registration")">Registar &raquo;</a></p>
+    </div>
+</div>
