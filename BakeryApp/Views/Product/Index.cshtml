@@ -27,7 +27,7 @@
                 @Html.DisplayFor(modelItem => item.ProductPrice)
             </td>
             <td>
-                @Html.ActionLink("--  Purchase  --", "Purchase", new { id = item.ProductKey })
+                @Html.ActionLink("--  Purchase  --", "../Sale/Index", new { id = item.ProductKey })
             </td>
         </tr>
     }
